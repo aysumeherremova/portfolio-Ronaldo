@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  height: 100vh;
+}
+.left-section {
+  flex: 1;
+  background-color: #007bff;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.right-section {
+  flex: 1;
+  background-color: #ffffff;
+  color: #000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.left-section p {
+  margin: 0;
+}
+
+.bg-blue { color: #8bc1ec; }
